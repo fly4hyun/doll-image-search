@@ -22,8 +22,8 @@
 
 ## Image Assets (to be inserted)
 
-1. 라벨링 툴 화면 — `assets/labeling_tool.jpg`
-2. 인형 검색 데모 화면 — `assets/search_demo.jpg`
+1. 라벨링 툴 화면 — `assets/labeling_tool.png`
+2. 인형 검색 데모 화면 — `assets/search_demo.png`
 
 ---
 
