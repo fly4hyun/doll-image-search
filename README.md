@@ -20,10 +20,19 @@
 
 ---
 
-## Image Assets (to be inserted)
+## Image Assets
 
-1. 라벨링 툴 화면 — `assets/labeling_tool.png`
-2. 인형 검색 데모 화면 — `assets/search_demo.png`
+### 1) 라벨링 툴 화면
+
+<p align="center">
+  <img src="assets/labeling_tool.png" width="860"/>
+</p>
+
+### 2) 인형 검색 데모 화면
+
+<p align="center">
+  <img src="assets/search_demo.png" width="860"/>
+</p>
 
 ---
 
