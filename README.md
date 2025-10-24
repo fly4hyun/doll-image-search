@@ -1,44 +1,33 @@
-# Doll Image Search (Dinov2 + FAISS)
+# Doll Image Search Service
 
-> 인형 디자인/도안 제작 편의성을 위한 이미지 검색 시스템 개발
-> 기간: 2024.03 – 2025.05
+> 인형 디자인 및 도안 제작 편의성을 위한 이미지 검색 시스템 개발
+> 기간: 2024.03 – 2025.05 | Repo: github.com/fly4hyun/doll-image-search
 
 ---
 
 ## Summary
 
-* 인형 파츠/종류 구분이 가능한 **커스텀 라벨링 체계 및 라벨링 툴 개발**
-* Dinov2 임베딩 + FAISS 인덱싱 기반 **유사 이미지 검색 파이프라인 구현**
-* Streamlit UI로 **검색/미리보기 가능한 데모 서비스** 제작
+* 본 프로젝트는 **PoC/데모 단계**로, 인형 DB 구축 + 유사도 기반 검색 기능을 검증하기 위한 프로토타입 개발
+* Dinov2 + FAISS 기반 검색 알고리즘 데모 구현 및 Streamlit UI로 서비스 형태 시연
 
 ---
 
-## Technical Highlights
+## Features
 
-* PyQt5 기반 **라벨링 툴 자체 개발** (카테고리/파츠 단위 주석 관리)
-* Dinov2 feature extraction → FAISS ANN Index 구축으로 **고속 검색 데모 구현**
-* Streamlit 기반 **Web UI 프로토타입** 제공 (검색·조회·확장 용이)
-
----
-
-## Visual Examples (to be inserted)
-
-* 라벨링 툴 작업 화면 (`docs/figures/label_tool.png`)
-* 검색 결과 예시 Top-K (`docs/figures/search_topk.png`)
-* Streamlit 데모 캡처 (`docs/figures/demo_ui.png`)
-
-> 위 파일명대로 추가 시 README에 그대로 반영 가능
+* **인형 라벨링 툴 개발** — 카테고리/부품 구조화 및 검색 메타 구축
+* **Dinov2 + FAISS** — 임베딩 기반 고속 이미지 검색 파이프라인 구현
+* **Streamlit 데모 UI** — 검색 및 결과 시각화 데모 서비스 구성
 
 ---
 
-## Disclosure
+## Image Assets (to be inserted)
 
-* 인형 원본 이미지/DB는 외부 공유 불가로 저장소에 포함하지 않음
-* 본 저장소는 구조·데모 설명 및 코드 일부만 공개 가능 범위 내 정리
+1. 라벨링 툴 화면 — `assets/labeling_tool.jpg`
+2. 인형 검색 데모 화면 — `assets/search_demo.jpg`
 
 ---
 
-## Contact
+## Notes on Disclosure
 
-이현희 / AI Research Engineer
-[fly4hyun@naver.com](mailto:fly4hyun@naver.com)
+일부 내부 라벨 구조 및 원본 데이터는 비공개입니다.
+요청 시 구조 수준 설명만 가능합니다.
