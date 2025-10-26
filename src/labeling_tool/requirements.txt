@@ -1,0 +1,4 @@
+PyQt5
+pyyaml
+pandas
+openpyxl
